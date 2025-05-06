@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+}
+.my-name h2{
+color: blue;
+}
+.my-name{
+    display: flex;
+}
+.my-name p{
+     font-size: 15px;
+     font-family: Barlow Semi Condensed, sans-serif; 
+     font-weight: bold;
+     margin-top: 7px;
+     margin-left: 12px;
+}
+.navbar{
+    margin-top: 30px;
+    display: flex;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    margin-left: 400px;
+}
+.nav ul li:hover{
+    color: blue;
+}
+#img1{
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 40px;
+    clip-path: circle();
+}
+.container{
+    display: flex;
+    
+}
+#line{
+    width: 50px;
+    height: 1px;
+    background-color: #758398;
+    margin-top: 30px;
+}
+.name p{
+    color: #758398;
+    margin-top: 200px;
+    
+}
+#web{
+    font-size: 35px;
+    font-family: Playfair Display, serif;
+    margin-top: 10px;
+    color: grey;
+}
+.name h1{
+    font-size: 40px;
+}
+.about{
+    margin-top: 80px;
+}
+.about p{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.about h1{
+    font-size: 50px;
+}
+.container1{
+    display: flex;
+    margin-top: 100px;
+}
+.design h1{
+    color: blueviolet;
+    margin-right: 100px;
+}
+#par{
+    color: rgb(115, 100, 129);
+    line-height: 1.8;
+}
+.design1 p{
+    line-height: 1.8;
+}
+
+.what h1{
+    margin-top: 200px;
+    font-size: 60px;
+    font-family: Playfair Display, sans-serif;
+}
+.what p{
+    color: rgb(115, 100, 129);
+    line-height: 1.8;
+    margin-top: 50px;
+}
+.designs{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+#ui-design{
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.fa-laptop{
+    height: 50px;
+    width: 50px;
+    color: blue;
+}
+.fa-tablet{
+    height: 50px;
+    width: 50px;
+    color: blue;
+}
+.design1 p{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(115, 100, 129);
+}
+.design2 p{
+    margin-left: 80px;
+    line-height: 1.5;
+    color: rgb(115, 100, 129);
+}
+.design3 p{
+    margin-left: 80px;
+    line-height: 1.5;
+    color: rgb(115, 100, 129);
+    
+}
+.design3{
+    margin-right: 150px;
+}
+.no-move{
+    background-image: url(images/15.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.skill{
+    margin-top: 100px;
+}
+.skill1{
+    height: 20px;
+    width: 350px;
+    background-color: rgb(189, 122, 252);
+    border-radius: 10px 0 0 10px;
+}
+.skill1 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 300px;
+    padding-top: 5px;
+}
+#javascript{
+    color:  rgb(189, 122, 252);
+}
+.skill2{
+    height: 20px;
+    width: 380px;
+    background-color: rgb(189, 122, 252);
+    border-radius: 10px 0 0 10px;
+    
+}
+.skill2 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 330px;
+    padding-top: 5px;
+}
+#php{
+    margin-top: 30px;
+    color:  rgb(189, 122, 252);
+}
+
+.skill3{
+    height: 20px;
+    width: 280px;
+    background-color: rgb(189, 122, 252);
+    border-radius: 10px 0 0 10px;
+
+    
+}
+.skill3 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 250px;
+    padding-top: 5px;
+}
+#python{
+    margin-top: 30px;
+    color:  rgb(189, 122, 252);
+}
+.skill4{
+    height: 20px;
+    width: 300px;
+    background-color: rgb(189, 122, 252);
+    border-radius: 10px 0 0 10px;
+
+    
+}
+.skill4 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 270px;
+    padding-top: 5px;
+}
+#photoshop{
+    margin-top:30px;
+    color:  rgb(189, 122, 252);
+}
+.experience{
+    margin-left: 550px;
+    margin-top: -360px;
+}
+.experience h1{
+    margin-bottom: 80px;
+}
+.experience h2{
+    color: rgb(189, 122, 252);
+    margin-bottom: 30px;
+}
+.experience p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.skill h1{
+    margin-bottom: 80px;
+}
+.portif h1{
+    margin-top: 200px;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+#car-website1{
+    height: 350px;
+}
+#education{
+    height: 400px;
+}
+#fitfloss{
+    height: 400px;
+    margin-right: 70px;
+}
+#food{
+    height: 400px;
+    
+}
+.futher{
+  margin-top: 200px;
+  display: flex;
+}
+.futher1 h2{
+    margin-bottom: 30px;
+    font-family: Playfair Display, sans-serif;
+}
+.futher1 h1{
+    font-size: 80px;
+}
+.futher2 {
+margin-left: 400px;
+}
+.futher3 {
+    margin-left: 50px;
+    }
+.futher2 h3{
+    margin-bottom: 30px;
+}
+.futher3 h3{
+    margin-bottom: 30px;
+}
+.futher2 p{
+    line-height: 1.5;
+    color: rgb(189, 122, 252);
+}
+.futher3 p{
+    line-height: 1.5;
+    color: rgb(189, 122, 252);
+}
+.last-futher{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(189, 122, 252);
+    margin-bottom: 100px;
+
+}
+
+   
+
