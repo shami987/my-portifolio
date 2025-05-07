@@ -3,6 +3,10 @@
     margin: 0;
     margin-left: 8px;
 }
+.name h1 {
+    font-size: 70px;
+    margin-top: 50px;
+}
 .my-name h2{
     color: blue;
     }
@@ -59,7 +63,8 @@
 }
 .send{
     display: flex;
-    margin-top: 200px;
+    margin-top: 50px;
+    justify-content: space-between;
 }
 .send1 h1{
     font-size: 60px;
@@ -70,10 +75,12 @@
     line-height: 1.7;
 }
 .names{
-    margin-left: 200px;
+    /* margin-left: 200px; */
     font-weight: bold;
     color:rgb(48, 48, 50);
     font-size: 20px;
+    margin-right: 60px;
+    
 }
 #fname{
     height: 40px;
@@ -94,10 +101,7 @@
 .names button{
     border: none;
 }
-.futher{
-    margin-top: 200px;
-    display: flex;
-  }
+
   .futher1 h2{
       margin-bottom: 30px;
       font-family: Playfair Display, sans-serif;
@@ -129,7 +133,24 @@
       text-align: center;
       margin-top: 100px;
       color: rgb(189, 122, 252);
-      margin-bottom: 100px;
+      margin-bottom: 50px;
   
   }
+  @media screen and (max-width: 768px) {
+    .send {
+        flex-direction: column;
+        
+    }
+    .names {
+        margin-top: 50px;
+    }
+    .base{
+       text-align: center;
+        margin-top: 50px;
+        
+
+    }
+    
+  }
+  
  

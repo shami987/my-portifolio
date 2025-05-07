@@ -6,9 +6,20 @@
 .my-name h2{
 color: blue;
 }
+.name h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
 .my-name{
     display: flex;
 }
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+  }
 .my-name p{
      font-size: 15px;
      font-family: Barlow Semi Condensed, sans-serif; 
@@ -84,7 +95,7 @@ color: blue;
     line-height: 1.8;
 }
 .no-move{
-    background-image: linear-gradient(rgba(68, 30, 30, 0.7), rgba(72, 31, 31, 0.7)),url(images/12.jpg);
+    background-image: linear-gradient(rgba(68, 30, 30, 0.7), rgba(72, 31, 31, 0.7)),url(images/14.webp);
     width: 100%;
     height: 80vh;
     background-position: center;
@@ -186,8 +197,8 @@ color: blue;
     line-height: 1.5;
 }
 .experience{
-   margin-left: 200px;
-   margin-top: 200px;
+   margin-left: 100px;
+   margin-top: 100px;
 }
 .experience h1{
     margin-bottom: 80px;
@@ -238,5 +249,125 @@ color: blue;
       margin-bottom: 100px;
   
   }
- 
+  @media screen and (max-width: 780px) {
+    body {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+    .navbar {
+        flex-direction: column;
+        
+    }
+
+    .my-name {
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .lab {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #plab {
+        height: 300px;
+        width: 300px;
+        clip-path: circle();
+    }
+
+    #line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design h1 {
+        font-size: 24px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .design1 p, #par {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .level {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        padding: 20px;
+    }
+
+    .skill1, .skill2, .skill3, .skill4 {
+        width: 100%;
+    }
+
+    .skill1 p, .skill2 p, .skill3 p, .skill4 p {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .my-skills {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .experience {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .futher {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        margin-top: 100px;
+    }
+
+    .futher1 h1 {
+        font-size: 32px;
+    }
+
+    .futher2, .futher3 {
+        margin-left: 0;
+    }
+
+    .last-futher {
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+
   
