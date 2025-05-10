@@ -3,45 +3,7 @@
     margin: 0;
     margin-left: 8px;
 }
-.name h1 {
-    font-size: 70px;
-    margin-top: 50px;
-}
-.my-name h2{
-    color: blue;
-    }
-    .my-name{
-        display: flex;
-    }
-    .my-name p{
-         font-size: 15px;
-         font-family: Barlow Semi Condensed, sans-serif; 
-         font-weight: bold;
-         margin-top: 7px;
-         margin-left: 12px;
-    }
-.navbar{
-    margin-top: 30px;
-    display: flex;
-}
-.nav ul li{
-    display: inline-block;
-    margin-right: 30px;
-    cursor: pointer;
-}
-.nav ul li a{
-    text-decoration: none;
-    color: black;
-}
-.nav{
-    margin-left: 400px;
-}
-.nav ul li:hover{
-    color: blue;
-}
-.container{
-    display: flex;
-}
+
 .lab{
     margin-left: 400px;
     clip-path: circle();
