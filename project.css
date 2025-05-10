@@ -3,33 +3,14 @@
     margin: 0;
     margin-left: 8px;
 }
-.my-name h2{
-    color: blue;
-}
-#sha {
-    color: black;
-    font-size: 18px;
-}
-.navbar{
-    margin-top: 30px;
-    display: flex;
-}
-.nav ul li{
-    display: inline-block;
-    margin-right: 30px;
+.close-btn {
     cursor: pointer;
+    font-size: 28px;
+    color: green;
+    margin-left: 10px;
+    display: none;
 }
-.nav ul li a{
-    text-decoration: none;
-    color: black;
-}
-.nav{
-    margin-left: 400px;
-}
-.nav ul li:hover{
-    color: blue;
-}
-.container{
+.nav ul.active .close-btn {
     display: flex;
 }
 .lab{

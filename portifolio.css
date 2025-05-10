@@ -16,24 +16,48 @@ color: blue;
      margin-top: 7px;
      margin-left: 12px;
 }
-.navbar{
-    margin-top: 30px;
+
+.nav ul{
+    
     display: flex;
+    list-style: none;
+    
+    right: 10px;
+
+    
 }
 .nav ul li{
-    display: inline-block;
+
     margin-right: 30px;
     cursor: pointer;
+    
+
+
+    
 }
 .nav ul li a{
     text-decoration: none;
     color: black;
 }
 .nav{
-    margin-left: 400px;
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+
+    
+}
+.nav.show{
+    display: block;
 }
 .nav ul li:hover{
     color: blue;
+}
+.name {
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-between;
+    
 }
 #img1{
     height: 400px;
@@ -42,10 +66,11 @@ color: blue;
 }
 .image1 {
    margin-right: 50px;
+   margin-top: -50px;
 }
 .container{
-    display: flex;
-    justify-content: space-between;
+    margin: 50px 0;
+    
     
     
 }
@@ -57,15 +82,35 @@ color: blue;
     margin-top: 30px;
 }
 .hamburger {
-    display: none;
-    font-size: 30px;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: 20px;
-  }
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    display: none;
+}
+.bar {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 2px;
+
+}
+.close-btn {
+    cursor: pointer;
+    font-size: 28px;
+    color: green;
+    margin-left: 10px;
+    display: none;
+}
+.nav ul.active .close-btn {
+    display: flex;
+}
 .name p{
     color: #758398;
-    margin-top: 200px;
+    margin-top: 50px;
     
 }
 #web{
@@ -323,68 +368,33 @@ margin-left: 400px;
     margin-bottom: 100px;
 
 }
-@media screen and (max-width: 768px) {
-    body {
-        margin-left: 0;
-        padding: 0 15px;
+@media (max-width: 768px){
+
+    .nav ul {
+        position: absolute;
+        top: 60px;
+        left: -105%; 
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+        transition: left 0.3s ease;
+       
+
+    }
+    .nav ul.active{
+        left: 0;
+    }
+    .nav ul li {
+        margin: 15px 0;
+        text-align: center;
     }
     .hamburger {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-      }
-    
-    .my-name {
-        
-        
-        margin-bottom: 10px;
+        display: flex;
     }
-    .my-name h2{
-        font-size: 
-        margin-right: 10px;
-        
-    }
-    .my-name p{
-        
-        margin-left: 0;
-    }
-    .nav {
-        display: none;
-        
-    }
-    .container {
-        flex-direction: column-reverse;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        
-        
-    }
-    
-    
-      #img1 {
-        height: 300px;
-        width: 300px;
-        clip-path: circle();
-      }
-      #line{
-        margin-left: 10px;
-      }
-    
-      .name p {
-        margin-top: 50px;
-        font-size: 14px;
-        margin-left: -180px;
-        
-      }
-    
-      .name h1 {
-        font-size: 24px;
-        margin-left: -130px;
-      }
-    
-      #web {
+   
+
+     #web {
         font-size: 18px;
         margin-top: 10px;
         margin-left: -180px;
@@ -479,7 +489,12 @@ margin-left: 400px;
         font-size: 14px;
         padding: 20px;
       }
+      .hide {
+        display: none;
+    }
     
+    .show {
+        display: inline-block; /* or block, depending on your nav link style */
+    }
 
-   
-
+}
